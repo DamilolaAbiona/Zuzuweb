@@ -64,7 +64,7 @@ const Home = () => {
               </p>
             </div>
             <div className="homeBtn_container">
-              <Link to="/contactus">
+              <Link to="/">
                 {" "}
                 <LearnMoreBtn btn_text="Get Started" />
               </Link>
