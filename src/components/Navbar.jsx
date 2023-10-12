@@ -46,14 +46,14 @@ const Navbar = () => {
       </div>
     </div>
         
-      {/* <div className={toggleMenu? 'showNavDropdown ': 'navbar_mobile_container'} >
-        <div><Link  to='/' className={location.pathname === '/' ? 'active' : ''}>Home</Link></div>
-        <div><Link  to='/aboutus' className={location.pathname === '/aboutus' ? 'active' : ''}>About us</Link></div>
-        <div><Link  to='/products' className={location.pathname === '/products' ? 'active' : ''}>Products</Link></div>
-        <div><Link  to='/subsidiaries' className={location.pathname === '/subsidiaries' ? 'active' : ''}>Subsidiaries</Link></div>
-        <div><Link  to='/contactus' className={location.pathname === '/contactus' ? 'active' : ''}>Contact us</Link></div>
+      <div className={toggleMenu? 'showNavDropdown ': 'navbar_mobile_container'} >
+        <div><Link  to='/' className={location.pathname === '/' ? 'active' : ''}>Demo</Link></div>
+        <div><Link  to='/aboutus' className={location.pathname === '/' ? 'active' : ''}>About us</Link></div>
+        <div><Link  to='/products' className={location.pathname === '/' ? 'active' : ''}>Collections</Link></div>
+        <div><Link  to='/subsidiaries' className={location.pathname === '/' ? 'active' : ''}>Pages</Link></div>
+        <div><Link  to='/contactus' className={location.pathname === '/' ? 'active' : ''}>Contact</Link></div>
        
-      </div> */}
+      </div>
     </>
   )
 }
