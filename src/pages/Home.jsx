@@ -68,8 +68,8 @@ const Home = () => {
                 {" "}
                 <LearnMoreBtn btn_text="Get Started" />
               </Link>
-              <div className="play"><img src={play} alt="" />
-                How it Works</div>
+              {/* <div className="play"><img src={play} alt="" />
+                How it Works</div> */}
               
             </div>
           </div>
